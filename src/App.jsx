@@ -7,6 +7,7 @@ function App() {
   const [numPeople, setNumPeople] = useState(1)
   const [finalAmount, setFinalAmount] = useState(0)
 
+// more efficient way to calculate the amount
 
   useEffect(() => {
     let tipAmount = (tipPercentage / 100) * billTotal;
