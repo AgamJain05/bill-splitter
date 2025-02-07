@@ -10,6 +10,7 @@ function App() {
 // more efficient way to calculate the amount
 
   useEffect(() => {
+    // new
     let tipAmount = (tipPercentage / 100) * billTotal;
     let totalAmount = billTotal + tipAmount;
     let amountPerPerson = totalAmount / numPeople;
